@@ -1,0 +1,101 @@
+@import '/resources/css/rv-common.css';
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.progess-bar-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.progress-container {
+    background-color: var(--theme-color-navbar);
+    height: 3px;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: var(--theme-color-progressbar);
+    height: 3px;
+    width: 0%;
+}
+
+
+.navbar {
+    font-family: Garamond;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--theme-color-navbar-background);
+    color: var(--theme-color-navbar-text);
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.container {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+.rv-title-sanskrit {
+    font-family: Eczar;
+    font-size: 4.0em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.rv-title-english {
+    font-family: Garamond;
+    font-size: 5.0em;
+    text-align: center;
+}
+
+.card {
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: var(--theme-color-text);
+    color: var(--theme-color-background);
+}
+
+#rv-search-results {
+    padding-top: 3%;
+    text-align: center;
+}
+
+.query_match {
+    color: var(--theme-color-primary);
+    display: inline-block;
+}
+
+.result-location {
+    font-weight: bold;
+    font-size: 2.0em;
+    font-family: Garamond;
+}
+
+.result-match {
+    font-size: 1.5em;
+    font-family: Garamond;
+}
+
+.form-select {
+    border: none;
+    background-color: var(--theme-color-navbar-background);
+    color: var(--theme-color-navbar-text);
+}
+
+.search-error-message {
+    text-align: left;
+}

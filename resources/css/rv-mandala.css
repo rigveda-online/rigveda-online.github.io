@@ -1,0 +1,65 @@
+@import '/resources/css/rv-common.css';
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.progess-bar-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+
+.progress-container {
+    background-color: var(--theme-color-navbar);
+    height: 3px;
+    width: 100%;
+}
+
+.progress-bar {
+    background-color: var(--theme-color-progressbar);
+    height: 3px;
+    width: 0%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.navbar {
+    font-family: Garamond;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--theme-color-navbar-background);
+    color: var(--theme-color-navbar-text);
+    text-align: center;
+}
+
+.container {
+    margin-top: 8%;
+    margin-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.card {
+    font-family: Garamond;
+    font-size: 1.5em;
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: var(--theme-color-text);
+    color: var(--theme-color-background-light);
+}
+
+.hymn-info {
+    font-size: 1.0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
