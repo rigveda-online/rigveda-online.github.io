@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Rig Veda, 3.33</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/resources/css/rv-hymn.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+</head>
+
+<body>
+    <!-- SCROLL BAR -->
+    <div class="progess-bar-header">
+        <div class="progress-container">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </div>
+    <!-- NAVBAR -->
+    <nav class="navbar shadow-lg px-2 py-3" id="navbar">
+        <div class="col-1">
+            <a href="/3/32.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-left"></span></a>
+        </div>
+        <div class="col-1">
+            <a href="/3/index.html" class="btn btn-nav btn-secondary-outline"><span class="fa fa-bars"></span></a>
+        </div>
+
+        <div class="col-8">
+            <h2>HYMN XXXIII. INDRA.</h2>
+        </div>
+
+        <div class="col-1">
+            <button class="btn btn-nav btn-secondary-outline" id="play_hymn_button" onClick="PlayHymnAudio()"><span
+                class="fa fa-volume-up"></span></button>
+            <audio src="https://docs.google.com/uc?export=open&id=1M1578MahfgQRpCcuuTxtiqzbe2FrMJ9z" id="hymn_audio"></audio>
+        </div>
+        
+        <div class="col-1">
+            <a href="/3/34.html" class="btn btn-nav btn-secondary-outline"><span
+                    class="fa fa-arrow-right"></span></a>
+        </div>
+    </nav>
+    <div class="container">
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पर">पर<span class="transliteration-word">pra</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पर्वतानामुशती">पर्वतानामुशती<span class="transliteration-word">parvatānāmuśatī</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=उपस्थादश्वे">उपस्थादश्वे<span class="transliteration-word">upasthādaśve</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=इव">इव<span class="transliteration-word">iva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=विषिते">विषिते<span class="transliteration-word">viṣite</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=हासमाने">हासमाने<span class="transliteration-word">hāsamāne</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=गावेव">गावेव<span class="transliteration-word">ghāveva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शुभ्रे">शुभ्रे<span class="transliteration-word">śubhre</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मातरा">मातरा<span class="transliteration-word">mātarā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=रिहाणे">रिहाणे<span class="transliteration-word">rihāṇe</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=विपाट">विपाट<span class="transliteration-word">vipāṭ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=छुतुद्री">छुतुद्री<span class="transliteration-word">chutudrī</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पयसाजवेते">पयसाजवेते<span class="transliteration-word">payasājavete</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        FORTH from the bosom of the mountains, eager as two swift mares with loosened rein contending, <br> Like two bright mother cows who lick their youngling, Vipāś and Sutudri speed down their waters.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.1
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=इन्द्रेषिते">इन्द्रेषिते<span class="transliteration-word">indreṣite</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परसवं">परसवं<span class="transliteration-word">prasavaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=भिक्षमाणे">भिक्षमाणे<span class="transliteration-word">bhikṣamāṇe</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अछा">अछा<span class="transliteration-word">achā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=समुद्रं">समुद्रं<span class="transliteration-word">samudraṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=रथ्येव">रथ्येव<span class="transliteration-word">rathyeva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=याथः">याथः<span class="transliteration-word">yāthaḥ</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=समाराणे">समाराणे<span class="transliteration-word">samārāṇe</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ऊर्मिभिः">ऊर्मिभिः<span class="transliteration-word">ūrmibhiḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पिन्वमाने">पिन्वमाने<span class="transliteration-word">pinvamāne</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अन्या">अन्या<span class="transliteration-word">anyā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वामन्यामप्येति">वामन्यामप्येति<span class="transliteration-word">vāmanyāmapyeti</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शुभ्रे">शुभ्रे<span class="transliteration-word">śubhre</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        Impelled by Indra whom ye pray to urge you, ye move as ’twere on chariots to the ocean. <br> Flowing together, swelling with your billows, O lucid Streams, each of you seeks the other.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.2
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अछा">अछा<span class="transliteration-word">achā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सिन्धुं">सिन्धुं<span class="transliteration-word">sindhuṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मात्र्तमामयासं">मात्र्तमामयासं<span class="transliteration-word">mātṛtamāmayāsaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=विपाशमुर्वीं">विपाशमुर्वीं<span class="transliteration-word">vipāśamurvīṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सुभगामगन्म">सुभगामगन्म<span class="transliteration-word">subhaghāmaghanma</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वत्समिव">वत्समिव<span class="transliteration-word">vatsamiva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मातरा">मातरा<span class="transliteration-word">mātarā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=संरिहाणे">संरिहाणे<span class="transliteration-word">saṃrihāṇe</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=समानं">समानं<span class="transliteration-word">samānaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=योनिमनु">योनिमनु<span class="transliteration-word">yonimanu</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=संचरन्ती">संचरन्ती<span class="transliteration-word">saṃcarantī</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        I have attained the most maternal River, we have approached Vipāś, the broad, the blessed. <br> Licking as ’twere their calf the pair of Mothers flow onward to their common home together.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.3
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=एन">एन<span class="transliteration-word">ena</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वयं">वयं<span class="transliteration-word">vayaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पयसा">पयसा<span class="transliteration-word">payasā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पिन्वमाना">पिन्वमाना<span class="transliteration-word">pinvamānā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अनु">अनु<span class="transliteration-word">anu</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=योनिं">योनिं<span class="transliteration-word">yoniṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=देवक्र्तं">देवक्र्तं<span class="transliteration-word">devakṛtaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=चरन्तीः">चरन्तीः<span class="transliteration-word">carantīḥ</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=न">न<span class="transliteration-word">na</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वर्तवे">वर्तवे<span class="transliteration-word">vartave</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परसवः">परसवः<span class="transliteration-word">prasavaḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सर्गतक्तः">सर्गतक्तः<span class="transliteration-word">sarghataktaḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=किंयुर्विप्रो">किंयुर्विप्रो<span class="transliteration-word">kiṃyurvipro</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नद्यो">नद्यो<span class="transliteration-word">nadyo</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=जोहवीति">जोहवीति<span class="transliteration-word">johavīti</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        We two who rise and swell with billowy waters move forward to the home which Gods have made us. <br> Our flood may not be stayed when urged to motion. What would the singer, calling to the Rivers?
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.4
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=रमध्वं">रमध्वं<span class="transliteration-word">ramadhvaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मे">मे<span class="transliteration-word">me</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वचसे">वचसे<span class="transliteration-word">vacase</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सोम्याय">सोम्याय<span class="transliteration-word">somyāya</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=रतावरीरुप">रतावरीरुप<span class="transliteration-word">ṛtāvarīrupa</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मुहूर्तमेवैः">मुहूर्तमेवैः<span class="transliteration-word">muhūrtamevaiḥ</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पर">पर<span class="transliteration-word">pra</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सिन्धुमछा">सिन्धुमछा<span class="transliteration-word">sindhumachā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=बर्हती">बर्हती<span class="transliteration-word">bṛhatī</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मनीषावस्युरह्वे">मनीषावस्युरह्वे<span class="transliteration-word">manīṣāvasyurahve</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कुशिकस्य">कुशिकस्य<span class="transliteration-word">kuśikasya</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सूनुः">सूनुः<span class="transliteration-word">sūnuḥ</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        Linger a little at my friendly bidding rest, Holy Ones, a moment in your journey. <br> With hymn sublime soliciting your favour Kuśika's son hath called unto the River.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.5
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=इन्द्रो">इन्द्रो<span class="transliteration-word">indro</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अस्मानरदद">अस्मानरदद<span class="transliteration-word">asmānaradad</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वज्रबाहुरपाहन">वज्रबाहुरपाहन<span class="transliteration-word">vajrabāhurapāhan</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वर्त्रं">वर्त्रं<span class="transliteration-word">vṛtraṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परिधिं">परिधिं<span class="transliteration-word">paridhiṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नदीनाम">नदीनाम<span class="transliteration-word">nadīnām</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=देवो.अनयत">देवो.अनयत<span class="transliteration-word">devo.anayat</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सवित">सवित<span class="transliteration-word">savita</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सुपाणिस्तस्य">सुपाणिस्तस्य<span class="transliteration-word">supāṇistasya</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वयं">वयं<span class="transliteration-word">vayaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परसवे">परसवे<span class="transliteration-word">prasave</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=याम">याम<span class="transliteration-word">yāma</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=उर्वीः">उर्वीः<span class="transliteration-word">urvīḥ</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        Indra who wields the thunder dug our channels: he smote down Vṛtra, him who stayed our currents. <br> Savitar, God, the lovely-handed, led us, and at his sending forth we flow expanded.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.6
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परवाच्यं">परवाच्यं<span class="transliteration-word">pravācyaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शश्वधा">शश्वधा<span class="transliteration-word">śaśvadhā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वीर्यं">वीर्यं<span class="transliteration-word">vīryaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=तदिन्द्रस्य">तदिन्द्रस्य<span class="transliteration-word">tadindrasya</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कर्म">कर्म<span class="transliteration-word">karma</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=यदहिंविव्र्श्चत">यदहिंविव्र्श्चत<span class="transliteration-word">yadahiṃvivṛścat</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वि">वि<span class="transliteration-word">vi</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वज्रेण">वज्रेण<span class="transliteration-word">vajreṇa</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परिषदो">परिषदो<span class="transliteration-word">pariṣado</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=जघानायन्नापो.अयनमिछमानाः">जघानायन्नापो.अयनमिछमानाः<span class="transliteration-word">jaghānāyannāpo.ayanamichamānāḥ</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        That hero deed of Indra must be lauded for ever that he rent Ahi in pieces. <br> He smote away the obstructors with his thunder, and eager for their course forth flowed the waters.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.7
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=एतद">एतद<span class="transliteration-word">etad</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वचो">वचो<span class="transliteration-word">vaco</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=जरितर्मापि">जरितर्मापि<span class="transliteration-word">jaritarmāpi</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मर्ष्ठा">मर्ष्ठा<span class="transliteration-word">mṛṣṭhā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=आ">आ<span class="transliteration-word">ā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=यत">यत<span class="transliteration-word">yat</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ते">ते<span class="transliteration-word">te</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=घोषानुत्तरा">घोषानुत्तरा<span class="transliteration-word">ghoṣānuttarā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=युगानि">युगानि<span class="transliteration-word">yughāni</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=उक्थेषु">उक्थेषु<span class="transliteration-word">uktheṣu</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कारो">कारो<span class="transliteration-word">kāro</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परति">परति<span class="transliteration-word">prati</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नो">नो<span class="transliteration-word">no</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=जुषस्व">जुषस्व<span class="transliteration-word">juṣasva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मा">मा<span class="transliteration-word">mā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नो">नो<span class="transliteration-word">no</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नि">नि<span class="transliteration-word">ni</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कः">कः<span class="transliteration-word">kaḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पुरुषत्रा">पुरुषत्रा<span class="transliteration-word">puruṣatrā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नमस्ते">नमस्ते<span class="transliteration-word">namaste</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        Never forget this word of thine, O singer, which future generations shall reecho. <br> In hymns, O bard, show us thy loving kindness. Humble us not mid men. To thee be honour!
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.8
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ओ">ओ<span class="transliteration-word">o</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=षु">षु<span class="transliteration-word">ṣu</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सवसारः">सवसारः<span class="transliteration-word">svasāraḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कारवे">कारवे<span class="transliteration-word">kārave</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शर्णोत">शर्णोत<span class="transliteration-word">śṛṇota</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ययौ">ययौ<span class="transliteration-word">yayau</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वो">वो<span class="transliteration-word">vo</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=दूरादनसा">दूरादनसा<span class="transliteration-word">dūrādanasā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=रथेन">रथेन<span class="transliteration-word">rathena</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नि">नि<span class="transliteration-word">ni</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=षू">षू<span class="transliteration-word">ṣū</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नमध्वं">नमध्वं<span class="transliteration-word">namadhvaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=भवता">भवता<span class="transliteration-word">bhavatā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सुपारा">सुपारा<span class="transliteration-word">supārā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अधोक्षाः">अधोक्षाः<span class="transliteration-word">adhoakṣāḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सिन्धवःस्रोत्याभिः">सिन्धवःस्रोत्याभिः<span class="transliteration-word">sindhavaḥsrotyābhiḥ</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        List quickly, Sisters, to the bard who cometh to you from far away with car and wagon. <br> Bow lowly down; be easy to be traversed stay, Rivers, with your floods below our axles.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.9
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=आ">आ<span class="transliteration-word">ā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ते">ते<span class="transliteration-word">te</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कारो">कारो<span class="transliteration-word">kāro</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शर्णवामा">शर्णवामा<span class="transliteration-word">śṛṇavāmā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वचांसि">वचांसि<span class="transliteration-word">vacāṃsi</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ययाथ">ययाथ<span class="transliteration-word">yayātha</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=दूरादनसा">दूरादनसा<span class="transliteration-word">dūrādanasā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=रथेन">रथेन<span class="transliteration-word">rathena</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नि">नि<span class="transliteration-word">ni</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ते">ते<span class="transliteration-word">te</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नंसै">नंसै<span class="transliteration-word">naṃsai</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पीप्यानेव">पीप्यानेव<span class="transliteration-word">pīpyāneva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=योषा">योषा<span class="transliteration-word">yoṣā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मर्यायेव">मर्यायेव<span class="transliteration-word">maryāyeva</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=कन्या">कन्या<span class="transliteration-word">kanyā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शश्वचै">शश्वचै<span class="transliteration-word">śaśvacai</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ते">ते<span class="transliteration-word">te</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        Yea, we will listen to thy words, O singer. With wain and car from far away thou comest. <br> Low, like a nursing mother, will I bend me, and yield me as a maiden to her lover.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.10
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=यदङग">यदङग<span class="transliteration-word">yadaṅgha</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=तवा">तवा<span class="transliteration-word">tvā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=भरताः">भरताः<span class="transliteration-word">bharatāḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सन्तरेयुर्गव्यन">सन्तरेयुर्गव्यन<span class="transliteration-word">santareyurghavyan</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=गराम">गराम<span class="transliteration-word">ghrāma</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=इषित">इषित<span class="transliteration-word">iṣita</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=इन्द्रजूतः">इन्द्रजूतः<span class="transliteration-word">indrajūtaḥ</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अर्षादह">अर्षादह<span class="transliteration-word">arṣādaha</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=परसवः">परसवः<span class="transliteration-word">prasavaḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सर्गतक्त">सर्गतक्त<span class="transliteration-word">sarghatakta</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=आ">आ<span class="transliteration-word">ā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वो">वो<span class="transliteration-word">vo</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वर्णे">वर्णे<span class="transliteration-word">vṛṇe</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सुमतिं">सुमतिं<span class="transliteration-word">sumatiṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=यज्ञियानाम">यज्ञियानाम<span class="transliteration-word">yajñiyānām</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        Soon as the Bharatas have fared across thee, the warrior band, urged on and sped by Indra, <br> Then let your streams flow on in rapid motion. I crave your favour who deserve our worship.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.11
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=अतारिषुर्भरता">अतारिषुर्भरता<span class="transliteration-word">atāriṣurbharatā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=गव्यवः">गव्यवः<span class="transliteration-word">ghavyavaḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=समभक्त">समभक्त<span class="transliteration-word">samabhakta</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=विप्रः">विप्रः<span class="transliteration-word">vipraḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सुमतिं">सुमतिं<span class="transliteration-word">sumatiṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=नदीनाम">नदीनाम<span class="transliteration-word">nadīnām</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पर">पर<span class="transliteration-word">pra</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पिन्वध्वमिषयन्तीः">पिन्वध्वमिषयन्तीः<span class="transliteration-word">pinvadhvamiṣayantīḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=सुराधा">सुराधा<span class="transliteration-word">surādhā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=आ">आ<span class="transliteration-word">ā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वक्षणाः">वक्षणाः<span class="transliteration-word">vakṣaṇāḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=पर्णध्वं">पर्णध्वं<span class="transliteration-word">pṛṇadhvaṃ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=यात">यात<span class="transliteration-word">yāta</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शीभम">शीभम<span class="transliteration-word">śībham</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        The warrior host, the Bharatas, fared over the singer won the favour of the Rivers. <br> Swell with your billows, hasting, pouring riches. Fill full your channels, and roll swiftly onward.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.12
+            </div>
+        </div>
+        
+        <div class="card shadow-lg my-5">
+            <div class="card-body">
+                <hr>
+                <div class="row px-2">
+                    <div class="hymn-sanskrit">
+                        <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=उद">उद<span class="transliteration-word">ud</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=व">व<span class="transliteration-word">va</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=ऊर्मिः">ऊर्मिः<span class="transliteration-word">ūrmiḥ</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शम्या">शम्या<span class="transliteration-word">śamyā</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=हन्त्वापो">हन्त्वापो<span class="transliteration-word">hantvāpo</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=योक्त्राणि">योक्त्राणि<span class="transliteration-word">yoktrāṇi</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मुञ्चत">मुञ्चत<span class="transliteration-word">muñcata</span></a> | <br><br> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=मादुष्क्र्तौ">मादुष्क्र्तौ<span class="transliteration-word">māduṣkṛtau</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=वयेनसाघ्न्यौ">वयेनसाघ्न्यौ<span class="transliteration-word">vyenasāghnyau</span></a> <a class="sanskrit-word" target="_blank" href="https://www.learnsanskrit.cc/translate?search=शूनमारताम">शूनमारताम<span class="transliteration-word">śūnamāratām</span></a> ||
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="hymn-translation-en">
+                        So let your wave bear up the pins, and ye, O Waters, spare the thongs; <br> And never may the pair of Bulls, harmless and sinless, waste away.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-footer">
+                3.33.13
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        crossorigin="anonymous"></script>
+
+    <script src="/resources/js/hymn.js"></script>
+</body>
+
+</html>

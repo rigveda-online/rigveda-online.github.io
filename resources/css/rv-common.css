@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Eczar;
+    font-weight: normal;
+    src: url('/resources/Eczar-Regular.ttf');
+}
+
+@font-face {
+    font-family: Eczar;
+    font-weight: bold;
+    src: url('/resources/Eczar-Bold.ttf');
+}
+
+@font-face {
+    font-family: Garamond;
+    font-weight: normal;
+    src: url('/resources/EBGaramond-Regular.ttf');
+}
+
+@font-face {
+    font-family: Garamond;
+    font-weight: bold;
+    src: url('/resources/EBGaramond-Bold.ttf');
+}
+
+@font-face {
+    font-family: Garamond;
+    font-style: italic;
+    src: url('/resources/EBGaramond-Italic.ttf');
+}
+
+:root {
+    --theme-color-primary: rgb(240, 140, 7);
+    --theme-color-progressbar: rgb(255, 0, 0);
+    --theme-color-background: rgb(255, 255, 255);
+    --theme-color-text: rgb(0, 0, 0);
+    --theme-color-background-light: rgb(245, 245, 245);
+    --theme-color-background-lighter: rgb(235, 235, 235);
+    --theme-color-navbar-background: rgb(76, 76, 84);
+    --theme-color-navbar-text: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--theme-color-background);
+    color: var(--theme-color-text);
+}
+
+.card {
+    background-color: var(--theme-color-background-light);
+    color: var(--theme-color-text);
+}
+
+.card-footer {
+    background-color: var(--theme-color-background-lighter);
+    color: var(--theme-color-text);
+}
+
+.btn-nav {
+    color: var(--theme-color-navbar-text);
+}
+
+.btn-nav:hover {
+    color: var(--theme-color-background-lighter);
+}
+
+hr {
+    border: 0;
+    height: 32px;
+    text-align: center;
+    background: url('/resources/images/divider.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.5;
+}
