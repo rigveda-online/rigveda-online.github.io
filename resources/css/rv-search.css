@@ -42,8 +42,8 @@ h2 {
 }
 
 .container {
-    padding-top: 8%;
-    padding-bottom: 8%;
+    margin-top: 8%;
+    margin-bottom: 8%;
 }
 
 .rv-title-sanskrit {
@@ -98,4 +98,10 @@ h2 {
 
 .search-error-message {
     text-align: left;
+}
+
+@media(max-width: 767px) {
+    .container {
+        margin-top: 40%;
+    }
 }
