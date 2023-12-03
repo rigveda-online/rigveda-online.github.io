@@ -55,11 +55,17 @@ h2 {
 
 .card:hover {
     transform: scale(1.1);
-    background-color: var(--theme-color-text);
+    background-color: var(--theme-color-navbar-background);
     color: var(--theme-color-background-light);
 }
 
 .hymn-info {
     font-size: 1.0rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media(max-width: 767px) {
+    .container {
+        margin-top: 30%;
+    }
 }

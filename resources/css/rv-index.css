@@ -34,7 +34,7 @@
 
 .card:hover {
     transform: scale(1.1);
-    background-color: var(--theme-color-text);
+    background-color: var(--theme-color-navbar-background);
     color: var(--theme-color-background);
 }
 

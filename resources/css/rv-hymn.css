@@ -107,15 +107,27 @@ h2 {
     font-size: 1.5em;
 }
 
+/* For mobile screens */
 @media(max-width: 767px) {
-    .sanskrit-word .transliteration-word
-    {
+    .sanskrit-word .transliteration-word {
         /* Hide transilteration for smaller screens */
         visibility: hidden;
     }
 
-    h2
-    {
+    /* Reduce font size */
+    .hymn-sanskrit {
+        font-size: 1.2em;
+    }
+
+    .hymn-translation-en {
+        font-size: 1.0em;
+    }
+
+    .container {
+        margin-top: 30%;
+    }
+
+    h2 {
         font-size: 1.0em;
     }
 }
